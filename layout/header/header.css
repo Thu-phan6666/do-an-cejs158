@@ -1,0 +1,208 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* position: relative; */
+}
+
+header {
+    width: 100%;
+    height: 143px;
+    /* border: 1px solid black; */
+    /* margin-top: -8px; */
+}
+
+header .header-top {
+    height: 40px;
+    background-color: rgb(42 69 57);
+    /* margin-top: -8px; */
+
+}
+
+header .header-top-content {
+    width: 60%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 13px;
+
+}
+
+header .header-top .login {
+    /* display: flex; */
+    /* justify-self: flex-end; */
+    /* float: left; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* color: black; */
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+
+header .header-main {
+    width: 60%;
+    height: 103px;
+    /* border: 1px solid rgb(189, 187, 187); */
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    margin: 10px auto 0;
+    overflow: hidden;
+
+
+}
+
+header .header-main .logo img {
+    width: 200px;
+    height: 62px;
+}
+
+header .header-main .menu ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+header .header-main .menu li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header .header-main .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-self: flex-end;
+}
+
+/* ----------------------------------------------------- */
+
+.section-1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-1 .section-1-background img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: bottom left;
+}
+
+.section-1 .text-box {
+    width: 50%;
+    /* height: 30%; */
+    background-color: rgba(255, 255, 255, 0.7);
+    ;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 1;
+    padding: 10px;
+    display: block;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+    /* opacity: 0.7; */
+    color: #224229;
+}
+
+.section-1 .text-box h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.section-1 .text-box p {
+    font-size: 33px;
+    font-size: 33px;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+
+.section-1 .text-box .button {
+    text-align: center;
+
+    /* justify-self: center; */
+}
+
+.section-1 .text-box .button button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    /* justify-self: center; */
+    /* bottom: 10px; */
+    /* margin: 40px; */
+}
+
+/* -------------------------------------------- */
+
+.section-2 {
+    width: 100%;
+    /* height: 700px; */
+    background-color: #f7f3e8;
+    position: relative;
+    display: flex;
+    box-sizing: content-box;
+}
+
+.section-2 .content {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.section-2 .content .tieu-de p {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-2 .content .list-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 55px;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    justify-content: center;
+    /* align-content: end; */
+}
+
+.section-2 .content .list-product .box {
+    width: 290px;
+    height: 290px;
+    background-color: aqua;
+    position: relative;
+    /* align-content: end; */
+    /* justify-items: center; */
+}
+
+.section-2 .content .list-product .box img {
+    width: 290px;
+    height: 290px;
+}
+
+.section-2 .content .list-product .box p {
+    width: 180px;
+    height: 30px;
+    background-color: #024b13;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    /* margin-left: auto; */
+    left: 50px;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
