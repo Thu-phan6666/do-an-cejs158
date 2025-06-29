@@ -1,29 +1,22 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* position: relative; */
 }
 
 header {
     width: 100%;
     height: 143px;
-    /* border: 1px solid black; */
-    /* margin-top: -8px; */
 }
 
 header .header-top {
     height: 40px;
     background-color: rgb(42 69 57);
-    /* margin-top: -8px; */
-
 }
 
 header .header-top-content {
     width: 60%;
     height: 40px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     position: relative;
     color: white;
     margin: auto;
@@ -32,22 +25,10 @@ header .header-top-content {
 
 }
 
-header .header-top .login {
-    /* display: flex; */
-    /* justify-self: flex-end; */
-    /* float: left; */
-    /* position: absolute; */
-    /* right: 0; */
-    /* color: black; */
-    /* display: flex; */
-    /* flex-direction: row; */
-
-}
 
 header .header-main {
     width: 60%;
     height: 103px;
-    /* border: 1px solid rgb(189, 187, 187); */
     display: grid;
     grid-template-columns: 20% 60% 20%;
     align-items: center;
@@ -83,7 +64,6 @@ header .header-main .search {
 /* ----------------------------------------------------- */
 
 .section-1 {
-    /* border: 1px solid black; */
     width: 100%;
     height: 20%;
     position: relative;
@@ -99,18 +79,14 @@ header .header-main .search {
 
 .section-1 .text-box {
     width: 50%;
-    /* height: 30%; */
     background-color: rgba(255, 255, 255, 0.7);
-    ;
     position: absolute;
     top: 30%;
     left: 10%;
     z-index: 1;
     padding: 10px;
     display: block;
-    /* box-sizing: border-box; */
     box-sizing: content-box;
-    /* opacity: 0.7; */
     color: #224229;
 }
 
@@ -128,8 +104,6 @@ header .header-main .search {
 
 .section-1 .text-box .button {
     text-align: center;
-
-    /* justify-self: center; */
 }
 
 .section-1 .text-box .button button {
@@ -137,16 +111,12 @@ header .header-main .search {
     height: 40px;
     border-radius: 20px;
     display: inline-block;
-    /* justify-self: center; */
-    /* bottom: 10px; */
-    /* margin: 40px; */
 }
 
 /* -------------------------------------------- */
 
 .section-2 {
     width: 100%;
-    /* height: 700px; */
     background-color: #f7f3e8;
     position: relative;
     display: flex;
@@ -171,10 +141,7 @@ header .header-main .search {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 55px;
-    /* row-gap: 10px; */
-    /* column-gap: 10px; */
     justify-content: center;
-    /* align-content: end; */
 }
 
 .section-2 .content .list-product .box {
@@ -182,8 +149,6 @@ header .header-main .search {
     height: 290px;
     background-color: aqua;
     position: relative;
-    /* align-content: end; */
-    /* justify-items: center; */
 }
 
 .section-2 .content .list-product .box img {
@@ -198,7 +163,6 @@ header .header-main .search {
     color: white;
     position: absolute;
     bottom: 40px;
-    /* margin-left: auto; */
     left: 50px;
     text-align: center;
     align-content: center;
