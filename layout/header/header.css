@@ -63,10 +63,6 @@ header .header-top-desktop .login a {
         display: none;
     }
 
-    header .header-top {
-        /* width: 100%; */
-        /* padding: 5px 15px; */
-    }
 
     header .header-top-mobile {
         width: 100%;
@@ -88,9 +84,6 @@ header .header-top-desktop .login a {
 
 /* --------------------------------- */
 
-header .header-main {
-    /* background-color: blueviolet; */
-}
 
 header .header-main .header-main-mobile {
     display: none;
@@ -342,7 +335,7 @@ header .header-main-desktop .search {
     width: 300px;
     height: 400px;
     /* border: 1px solid black; */
-}
+/* } */
 
 .section-3 .new-product .product-1 img {
     width: 300px;
@@ -363,4 +356,4 @@ header .header-main-desktop .search {
     font-weight: 500;
     display: block;
     color: green;
-} */
+}
