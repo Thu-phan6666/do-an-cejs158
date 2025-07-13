@@ -66,6 +66,7 @@ header .header-top-desktop .login a {
     header .header-top .header-top-desktop {
         display: none;
     }
+
     header .header-top-mobile {
         width: 100%;
         display: block;
@@ -253,6 +254,8 @@ header .header-main .menu .menu-5 {
     .header-main-mobile-bottom p {
         margin: 0;
         color: white;
+        font-size: 12px;
+        padding-top: 5px;
     }
 }
 
