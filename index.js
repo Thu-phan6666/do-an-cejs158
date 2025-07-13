@@ -5,4 +5,5 @@ async function loadHTML(id, file) {
 }
 
 loadHTML("header", "./layout/header/header.html");
+loadHTML("main", "./layout/main/main.html" )
 loadHTML("footer", "./layout/footer/footer.html");
