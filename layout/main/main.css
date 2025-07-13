@@ -1,0 +1,873 @@
+.h3-1 {
+    text-align: center;
+}
+
+.h3-2 {
+    text-align: center;
+}
+
+.h3-3 {
+    text-align: center;
+}
+.h3-4 {
+    text-align: center;
+}
+
+.h3-5 {
+    text-align: center;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fbfbf0; /* ← đổi mã màu ở đây */
+  color: #333;
+  margin: 0 padding: 0;
+}
+
+
+
+.ss3 .d-flex {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-1 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-1 .hinh-san-pham-1 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-2 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-2 .hinh-san-pham-2 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-3 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-3 .hinh-san-pham-3 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-4 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-4 .hinh-san-pham-4 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-5 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-5 .hinh-san-pham-5 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-2 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-6 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-6 .hinh-san-pham-6 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-7 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-7 .hinh-san-pham-7 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-8 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-8 .hinh-san-pham-8 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-9 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-9 .hinh-san-pham-9 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-10 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-10 .hinh-san-pham-10 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-3 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-11 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-11 .hinh-san-pham-11 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-12 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-12 .hinh-san-pham-12 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-13 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-13 .hinh-san-pham-13 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-14 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-14 .hinh-san-pham-14 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-15 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-15 .hinh-san-pham-15 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-4 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-16 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-16 .hinh-san-pham-16 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-17 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-17 .hinh-san-pham-17 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-18 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-18 .hinh-san-pham-18 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-19 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-19 .hinh-san-pham-19 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-20 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-20 .hinh-san-pham-20 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-5 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-21 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-21 .hinh-san-pham-21 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-22 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-22 .hinh-san-pham-22 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-23 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-23 .hinh-san-pham-23 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-24 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-24 .hinh-san-pham-24 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-25 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-25 .hinh-san-pham-25 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-6 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-26 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-26 .hinh-san-pham-26 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-27 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-27 .hinh-san-pham-27 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-28 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-28 .hinh-san-pham-28 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-29 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-29 .hinh-san-pham-29 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-30 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-30 .hinh-san-pham-30 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-7 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-31 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-31 .hinh-san-pham-31 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-32 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-32 .hinh-san-pham-32 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-33 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-33 .hinh-san-pham-33 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-34 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-34 .hinh-san-pham-34 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-35 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-35 .hinh-san-pham-35 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-8 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-36 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-36 .hinh-san-pham-36 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-37 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-37 .hinh-san-pham-37 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-38 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-38 .hinh-san-pham-38 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-39 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-39 .hinh-san-pham-39 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-40 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-40 .hinh-san-pham-40 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-9 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-41 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-41 .hinh-san-pham-41 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-42 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-42 .hinh-san-pham-42 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-43 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-43 .hinh-san-pham-43 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-44 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-44 .hinh-san-pham-44 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-45 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-45 .hinh-san-pham-45 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-10 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-46 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-46 .hinh-san-pham-46 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-47 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-47 .hinh-san-pham-47 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-48 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-48 .hinh-san-pham-48 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-49 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-49 .hinh-san-pham-49 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-50{
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-50 .hinh-san-pham-50 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-11 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-51 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-51 .hinh-san-pham-51 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-52 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-52 .hinh-san-pham-52 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-53 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-53 .hinh-san-pham-53 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-54 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-54 .hinh-san-pham-54 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-55 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-55 .hinh-san-pham-55 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-12 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-56 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-56 .hinh-san-pham-56 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-57 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-57 .hinh-san-pham-57 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-58 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-58 .hinh-san-pham-58 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-59 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-59 .hinh-san-pham-59 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-60 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-60 .hinh-san-pham-60 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .d-flex-13 {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-bottom: 20px;
+}
+
+.ss3 .box-61 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-61 .hinh-san-pham-61 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-62 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-62 .hinh-san-pham-62 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-63 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-63 .hinh-san-pham-63 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-64 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-64 .hinh-san-pham-64 {
+    width: 180px;
+    height: 200px;
+}
+
+.ss3 .box-65 {
+    width: 200px;
+    height: 300px;
+}
+
+.ss3 .box-65 .hinh-san-pham-65 {
+    width: 180px;
+    height: 200px;
+}
+
+/* Reset nhỏ cho ảnh sản phẩm */
+.ss3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Định dạng chung cho box sản phẩm */
+[class^="box-"] {
+  width: 18%;
+  margin: 1%;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+[class^="box-"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Tên sản phẩm & giá */
+[class^="box-"] p {
+  margin: 8px 0 4px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Giá sản phẩm */
+[class^="box-"] p:last-child {
+  font-weight: bold;
+  color: #009432;
+}
+
+/* Grid hàng ngang */
+.d-flex, .d-flex-2, .d-flex-3, .d-flex-4,
+.d-flex-5, .d-flex-6, .d-flex-7, .d-flex-8,
+.d-flex-9, .d-flex-10, .d-flex-11, .d-flex-12, .d-flex-13 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Nút thêm vào giỏ hàng */
+[class^="box-"] .add-to-cart {
+  opacity: 0;
+  background-color: #009432;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: -3px;
+  display: inline-block;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover hiện nút */
+[class^="box-"]:hover .add-to-cart {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.add-to-cart {
+  background-color: #009432;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  transition: background 0.3s ease;
+}
+.add-to-cart:hover {
+  background-color: #007b2f;
+}
+
+/* Mobile Responsive */
+@media (max-width: 540px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .product-card img {
+    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  .add-to-cart {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
