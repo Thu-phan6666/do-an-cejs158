@@ -66,6 +66,7 @@ header .header-top-desktop .login a {
     header .header-top .header-top-desktop {
         display: none;
     }
+
     header .header-top-mobile {
         width: 100%;
         display: block;
@@ -74,18 +75,24 @@ header .header-top-desktop .login a {
         text-align: center;
         height: 40px;
         line-height: 40px;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         /* padding: 5px 20px; */
 
     }
 
     header .header-top .header-top-mobile h3 {
-        margin: 0 auto;
+        margin: 0;
+        padding: 5px;
+
     }
 }
 
 /* --------------------------------- */
 
+
+.header-main-mobile-bottom {
+    display: none;
+}
 
 header .header-main .header-main-mobile {
     display: none;
@@ -220,6 +227,39 @@ header .header-main .menu .menu-5 {
     box-shadow: 0 -4px 12px -2px rgba(0, 0, 0, 0.3);
 }
 
+/* menu - bottom */
+@media (max-width:540px) {
+    .header-main-mobile-bottom {
+        display: flex;
+        justify-content: space-between;
+        background-color: #224229;
+        padding: 10px 30px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+    }
+
+    .header-main-mobile-bottom a {
+        text-decoration: none;
+    }
+
+    .header-main-mobile-bottom i {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .header-main-mobile-bottom p {
+        margin: 0;
+        color: white;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+}
+
+
 /* ------------------------------ */
 
 
@@ -260,7 +300,7 @@ header .header-main-desktop .search {
 
 }
 
-/* ----------------------------------------------------- */
+/* section-1 */
 
 .section-1 {
     width: calc(100% +30px);
@@ -338,6 +378,7 @@ header .header-main-desktop .search {
     text-transform: uppercase;
     text-align: center;
     margin-top: -5px;
+    margin-bottom: 0;
     font-family: auto;
     padding-top: 30px;
 
