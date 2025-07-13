@@ -66,7 +66,6 @@ header .header-top-desktop .login a {
     header .header-top .header-top-desktop {
         display: none;
     }
-
     header .header-top-mobile {
         width: 100%;
         display: block;
@@ -87,10 +86,6 @@ header .header-top-desktop .login a {
 
 /* --------------------------------- */
 
-header .header-main {
-    /* background-color: blueviolet; */
-    background-color: #fbf9f4;
-}
 
 header .header-main .header-main-mobile {
     display: none;
