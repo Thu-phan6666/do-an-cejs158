@@ -5,6 +5,7 @@
 .h3-2 {
     text-align: center;
 }
+
 .h3-3 {
     text-align: center;
 }
@@ -21,7 +22,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fbfbf0; /* ← đổi mã màu ở đây */
   color: #333;
-  padding: 40px 16px;
+  margin: 0 padding: 0;
 }
 
 
